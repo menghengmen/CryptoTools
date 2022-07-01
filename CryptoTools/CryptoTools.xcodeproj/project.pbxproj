@@ -10,6 +10,8 @@
 		B0D1A33A286F4828008F16B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1A339286F4828008F16B1 /* main.m */; };
 		B0D1A342286F4852008F16B1 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1A341286F4852008F16B1 /* NSString+MD5.m */; };
 		B0D1A345286F4A78008F16B1 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1A344286F4A78008F16B1 /* NSString+AES.m */; };
+		B0D1A348286F4F1A008F16B1 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1A347286F4F1A008F16B1 /* NSString+DES.m */; };
+		B0D1A34B286F50E3008F16B1 /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1A34A286F50E3008F16B1 /* NSString+SHA1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		B0D1A341286F4852008F16B1 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		B0D1A343286F4A78008F16B1 /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
 		B0D1A344286F4A78008F16B1 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		B0D1A346286F4F1A008F16B1 /* NSString+DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		B0D1A347286F4F1A008F16B1 /* NSString+DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		B0D1A349286F50E3008F16B1 /* NSString+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		B0D1A34A286F50E3008F16B1 /* NSString+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				B0D1A341286F4852008F16B1 /* NSString+MD5.m */,
 				B0D1A343286F4A78008F16B1 /* NSString+AES.h */,
 				B0D1A344286F4A78008F16B1 /* NSString+AES.m */,
+				B0D1A346286F4F1A008F16B1 /* NSString+DES.h */,
+				B0D1A347286F4F1A008F16B1 /* NSString+DES.m */,
+				B0D1A349286F50E3008F16B1 /* NSString+SHA1.h */,
+				B0D1A34A286F50E3008F16B1 /* NSString+SHA1.m */,
 			);
 			path = CryptoTools;
 			sourceTree = "<group>";
@@ -129,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D1A348286F4F1A008F16B1 /* NSString+DES.m in Sources */,
+				B0D1A34B286F50E3008F16B1 /* NSString+SHA1.m in Sources */,
 				B0D1A342286F4852008F16B1 /* NSString+MD5.m in Sources */,
 				B0D1A345286F4A78008F16B1 /* NSString+AES.m in Sources */,
 				B0D1A33A286F4828008F16B1 /* main.m in Sources */,
